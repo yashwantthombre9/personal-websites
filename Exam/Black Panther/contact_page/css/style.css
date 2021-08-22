@@ -1,0 +1,212 @@
+.main-container{
+    /* background-color: lightgray; */
+    width: 100vw;
+    height: 1500px;
+}
+
+.header-section{
+    background-color: darkgrey;
+    width: 100%;
+    height: 3%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.header-section .name{
+    font-size: 20px;
+}
+
+.header-section .menu-buttons{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menu-buttons .home{
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+.menu-buttons .home:hover,
+.menu-buttons .contact:hover,
+.menu-buttons .about-us:hover{
+    background-color: #0000ff;
+    cursor: pointer;
+}
+
+.menu-buttons .contact{
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.body-section h1{
+    font-size: 40px;
+}
+.menu-buttons .about-us{
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.body-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.body-section form{
+    margin-top: 20px;
+}
+
+.body-section form div{
+    margin-top: 20px;
+}
+
+
+.footer-section{
+    background-color: #ffffff;
+    height: 20%;
+    
+
+}
+
+.footer-section .top-side{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: top; */
+    padding: 1%;
+}
+
+
+.fourth .symbols{
+    display: flex;
+}
+
+.top-side .link-space{
+    margin-top: 15%;
+}
+
+.link-space .a{
+    margin-top: 8%;
+}
+
+.footer-section .bottom-side{
+    display: flex;
+    padding: 1%;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bottom-side .default-links{
+    /* display:  inline-block; */
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    width: 50%;
+    
+}
+.default-links .default{
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.bottom-side .global-button{
+    height: 100%;
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 45%;
+    padding: 1%;
+}
+
+.bottom .left .head-title{
+    /* border:  2px solid black; */
+    /* display: flex; */
+    font-size: 35px;
+    align-items: center;
+    margin: 5%;
+    margin-right: 20%;
+}
+
+.bottom .left .details {
+    margin: auto;
+    padding: 2%;
+}
+
+.bottom .left .details .top-left{
+   display: flex;
+
+}
+
+.top-left .top-left-first,
+.top-left-second{
+    display: flex;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.bottom-left .bottom-left-first,
+.bottom-left-second{
+    display: flex;
+}
+
+.bottom .left .details .bottom-left{
+    display: flex;
+    margin-top: 2%;
+}
+
+
+
+
+
+.bottom .right{
+    padding: 2%;
+
+}
+
+.bottom .right .right-button{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.bottom .right .details-info{
+    margin: auto;
+    margin-top: 10px;
+    margin: 10px;
+}
+.bottom .right .details-info h2{
+    font-size: 20px;
+    margin: 10px;
+    align-items: center;
+}
+
+.bottom .right .past-events h2{
+    font-size: 20px;
+    margin: 10px;
+    align-items: center;
+}
+
+.bottom .right .past-events .box{
+    border: 2px solid black;
+    padding: 10px;
+}

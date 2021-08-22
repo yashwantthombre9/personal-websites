@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client - Jagadamba Peripherals</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="form-details">
+                <form action="server.html">
+                    <div class="form-body processor-model">
+                        <label for="model">Processor Model</label>
+                        <select id="model">
+                            <option value="amd">AMD</option>
+                            <option value="intel">Intel</option>
+                        </select>
+                    </div>
+                    <div class="form-body number-of-cores">
+                        <label for="cores">Number of Cores</label>
+                        <select id="cores">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="6">6</option>
+                            <option value="8">8</option>
+                            <option value="12">12</option>
+                            
+                        </select>
+                    </div>
+                    <div class="form-body memory">
+                        <label for="memory">Memory Size</label>
+                        <select id="memory">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="4">4</option>
+                            <option value="8">8</option>
+                            <option value="16">16</option>
+                            <option value="32">32</option>
+                            
+                            
+                        </select>
+                    </div>
+                    <div class="form-body hard-drive">
+                        <label for="hard-drive">Hard Drive (GB)</label>
+                        <select id="hard-drive">
+                            <option value="500GB">500GB</option>
+                            <option value="1TB">1TB</option>
+                            <option value="2TB">2TB</option>
+                            
+                            
+                        </select>
+                    </div>
+                    <div class="form-body dvd-burner">
+                        <label>DVD Burner</label>
+                        <label for="dvd-yes">Yes</label>
+                        <input type="checkbox" id="dvd-yes" name="dvd-burner">
+                        <label for="dvd-no">No</label>
+                        <input type="checkbox" id="dvd-no" name="dvd-burner">
+                    </div>
+                    <div class="form-body any-special-request">
+                        <label for="special-request">Any Special Request</label>
+                        <textarea id="special-request" name="special-request" placeholder="any special request here"></textarea>
+                    </div>
+                    <div class="form-body submit-button">
+                        <button type="submit" name="submit-button">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

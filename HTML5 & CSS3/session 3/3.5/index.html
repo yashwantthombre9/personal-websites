@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaisaUdda</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="paisaudda-payment-form">
+                <form action="server.html">
+                    <div class="main-content">
+                        <div class="main-content first-name">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name" placeholder="enter your first name">
+                        </div>
+                        <div class="main-content last-name">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" placeholder="enter your last name">
+                        </div>
+                        
+                        <div class="main-content address">
+                            <label for="address">Street Address</label>
+                            <textarea id="address" name="street-address" placeholder="enter your street address"></textarea>
+                        </div>
+                        
+                        <div class="main-content city">
+                            <label for="city">City</label>
+                            <input type="text" id="city" name="city" placeholder="enter your city name">
+                        </div>
+                        
+                        <div class="main-content State">
+                            <label for="state">State</label>
+                            <input type="text" id="state" name="state" placeholder="enter your State name">
+                        </div>
+                        
+                        <div class="main-content zip-code">
+                            <label for="zip-code">Zip/postal code</label>
+                            <input type="number" id="zip-code" name="zip-code" placeholder="zip/postal code">
+                        </div>
+                        <div class="main-content credit-card-type">
+                            <select>
+                                <option value="select" >--select--</option>
+                                <option value="master-card">Master Card</option>
+                                <option value="visa">Visa</option>
+                                <option value="discover">Discover</option>
+                
+                            </select>
+                        </div>
+                        <div class="main-content card-number">
+                            <label for="card-number">Credit Card Number</label>
+                            <input type="number" id="card-number" name="card-number" placeholder="enter your card-number">
+                        </div>
+                        <div class="main-content expiration-date">
+                            <label for="exp-date">Expiration Date</label>
+                            <input type="date" id="exp-date" name="exp-date" placeholder="dd-mm-yyyy">
+                        </div>
+                        
+                        <div class="main-content special-note">
+                            <label for="special-note">Special Note</label>
+                            <textarea id="special-note" name="special-note" placeholder="special note here..." rows="5" cols="50"></textarea>
+
+                        </div>
+                        <div class="main-content submit-button">
+                            <button type="submit" name="submit-button">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

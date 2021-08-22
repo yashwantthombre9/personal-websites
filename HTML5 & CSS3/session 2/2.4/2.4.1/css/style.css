@@ -1,0 +1,173 @@
+html {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  body {
+    
+    border-color: orange;
+    border-width: 0.5em;
+    border-style:solid;
+  }
+  .main-container {
+   margin: 3em;
+  
+  
+  }
+  .heading-wrapper {
+    font-weight: bold
+    
+  }
+  
+  .personal-label,
+  .year {
+    width: 13em;
+    
+  }
+  .personal-value {
+    margin-left: 0.2em;
+    margin-right:3em;
+  }
+  #profile-photo {
+    width: 10em;
+    height:10em;
+    text-align: right;
+  }
+  
+  
+  
+  li
+  {
+    padding-bottom: 0.3em;
+  }
+  .working-experience-main{
+    margin-bottom: 0.7em;
+    margin-top:0.7em;
+  }
+  .education-main{
+    margin-bottom: 0.7em;
+    margin-top:0.7em;
+  }
+  .personal-main-container{
+    margin-bottom: 0.7em;
+    margin-top:0.7em;
+  }
+  .org-info{
+    margin-bottom: 0.7em;
+    margin-top:0.7em;
+  }
+  .other-skills {
+    margin-bottom: 0.7em;
+    margin-top:0.7em;
+  
+  }
+  
+  
+  .personal-details{
+    border-style:solid;
+    border-width: 0.2em;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none ;
+    border-bottom-color: brown;
+    border-bottom-style:solid;
+  margin-top: 1em;
+  }
+  .education-details{
+    border-style:solid;
+    border-width: 0.2em;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none ;
+    border-bottom-color: brown;
+    border-bottom-style:solid;
+  margin-top: 1em;
+  }
+  .working-experience {
+    border-style:solid;
+    border-width: 0.2em;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none ;
+    border-bottom-color: brown;
+    border-bottom-style:solid;
+  margin-top: 1em;
+    
+  }
+  
+  .school_1 {
+    width:8em;
+  }
+  .school_2 {
+    margin-left: 0.2em;
+    
+  }
+  #gpa {
+    font-weight: bold;
+  }
+  .Organisational-experience {
+    margin-top: 1em;
+  }
+  
+  
+  
+  .edu-info{
+    display: inline-flex;
+  }
+  .personal-info{
+    display: inline-flex;
+  }
+  .personal-main-container{
+    display: inline-flex;
+  }
+  .inline{
+    display: inline-flex;
+  }
+  .skills_1
+  {
+    display: inline-flex;
+    
+  }
+  .school{
+    list-style: none;
+  }
+  .work{
+    list-style: none;
+  }
+  .org{
+    list-style: none;
+  }
+  .school_2{
+    list-style: none;
+  }
+  .score{
+    list-style: none;
+  }
+  .personal-label{
+    list-style: none;
+  }
+  .personal-value  {
+    
+    list-style: none;
+  }
+  
+  .inline {
+    display: inline-flex;
+  }
+  .skills_1 {
+    display: inline-flex;
+  }
+  .text {
+    margin-right: 3em;
+  }
+  .score {
+    font-weight: bold;
+    margin-left: 0.2em;
+  }
+  .personal-info{
+    margin-bottom: 0.2em;
+  }
+  .edu-info {
+    margin-bottom: 0.2em;
+  }

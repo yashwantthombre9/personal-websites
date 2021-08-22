@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="registration-form">
+                <form action="">
+                    <div class="form-details name">
+                       <span><input type="text" id="first-name" name="first-name" placeholder="First Name"></span>
+                       <span><input type="text" id="first-name" name="last-name" placeholder="First Name"></span>
+                    </div>
+                    <div class="form-details email-number">
+                        <span class="email"><input type="email" id="email" name="email-id" placeholder="Email Address"></span>
+                        <span class="tel-number"><input type="number" id="tel-number" name="tel-number" placeholder="Telephone number"></span>
+                    </div>
+                    <div class="form-details url-department">
+                        <span class="url"><input type="url" id="url" name="url" placeholder="Website URL"></span>
+                        <span class="department">
+                            <select>
+                                <option>--Select Department--</option>
+                                <option value="computer science">Computer Science</option>
+                                <option value="electrical">Electrical</option>
+                                <option value="information technology">Information Technology</option>
+                            </select>
+                        </span>
+                    </div>
+                    <div class="form-details message-comment">
+                        <textarea id="message" name="message-comment" placeholder="Enter message or comment" rows="5" cols="50"></textarea>
+                    </div>
+                    <div class="form-details hint">
+                        <input type="text" id="hint" name="hint" disabled placeholder="Hint: Don't be nagative or Off topic" size="53">
+
+                    </div>
+                    <div class="form-details captcha">
+                        <span><input type="text" id="captcha-field" name="captcha-field" placeholder="Enter captcha"  size="40"></span>
+                        <span><input type="text" id="captcha" name="captcha" placeholder="35XWQR" size="7" disabled></span>
+                    </div>
+                    <div class="form-details buttons">
+                        <div class="buttons">
+                            <span class="cancel"><button type="reset" id="reset">Cancel</button></span>
+                            <span class="submit"><button type="submit" id="submit">Submit</button></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

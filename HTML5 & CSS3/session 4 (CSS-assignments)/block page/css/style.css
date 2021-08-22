@@ -1,0 +1,115 @@
+.container{
+    background-color: #a69795;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 3%;
+    padding-left: 4%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.first-container{
+    background-color: #ffffff;
+    height: 85px;
+    
+}
+
+.second-container .first{
+    background-color: #ffffff;
+    display: inline-block;
+    height: 85px;
+    width: 22%;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.second-container .second{
+    background-color: #ffffff;
+    display: inline-block;
+    height: 85px;
+    width: 22%;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.second-container .third{
+    background-color: #ffffff;
+    display: inline-block;
+    height: 85px;
+    width: 22%;
+    margin-top: 20px;
+    margin-right: 56px;
+}
+
+.second-container .fourth{
+    background-color: #ffffff;
+    display: inline-block;
+    height: 85px;
+    width: 22%;
+    margin-top: 20px;
+    
+}
+
+.third-container .left-sect{
+    background-color: #ffffff;
+    width: 47%;
+    height: 170px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 24px;
+}
+.third-container .right-sect{
+    display: inline-block;
+    background-color: #a69795;
+    width: 50%;
+    height: 170px;
+    margin-top: 20px;
+    display: inline-block;
+    
+}
+
+.third-container .right-top{
+    /* background-color: white; */
+    height: 45%;
+}
+.right-top .first{
+    background-color: white;
+    display: inline-block;
+    height: 100%;
+    width: 44%;
+    margin-right: 56px;
+}
+
+.right-top .second{
+    background-color: white;
+    display: inline-block;
+    height: 100%;
+    width: 44%;
+}
+.third-container .right-down{
+    /* background-color: white; */
+    margin-top: 3.3%;
+    height: 45%;
+}
+
+.right-down .first{
+    background-color: white;
+    display: inline-block;
+    height: 100%;
+    width: 44%;
+    margin-right: 56px;
+}
+
+.right-down .second{
+    background-color: white;
+    display: inline-block;
+    height: 100%;
+    width: 44%;
+}
+.fourth-container{
+    background-color: #ffffff;
+    height: 85px;
+    margin-top: 20px;
+}
